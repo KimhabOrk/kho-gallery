@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Raleway } from "next/font/google";
 import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google"
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { CookieConsent } from "@/components/cookie-consent";
 import Script from "next/script"
@@ -215,36 +215,13 @@ export default function RootLayout({
   return (
     <html lang="en">
         <GoogleTagManager gtmId="GTM-KBF4JHBS" />
-        <Script
-          id="yandex-metrika"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(m,e,t,r,i,k,a){
-              m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-              m[i].l=1*new Date();
-              for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-              k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-              (window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103742603', 'ym');
-              
-              ym(103742603, "init", {
-                defer: true,
-                ssr:true,
-                webvisor:true,
-                clickmap:true,
-                trackLinks:true,
-                accurateTrackBounce:true
-              });
-            `,
-           }}
-           strategy="afterInteractive"
-         />
         <body className={`${playfair.variable} ${raleway.variable} font-raleway bg-black text-white`}>
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
               __html: JSON.stringify({
                 "@context": "https://schema.org",
-                "@type": "CollegeOrUniversity",
+                "@type": "FashionBrand",
                 "name": "Kimhab Ork Fashion & Art Gallery",
                 "url": "https://gallery.kimhabork.site",
                 "logo": "https://gallery.kimhabork.site/ppfi-nav.png", 
