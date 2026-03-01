@@ -1,0 +1,26 @@
+"use client"
+
+import type { Brand } from "@/interfaces/collection"
+import BrandCard from "./BrandCard"
+
+interface BrandGridProps {
+  brands: Brand[]
+}
+
+export default function BrandGrid({ brands }: BrandGridProps) {
+  if (brands.length === 0) {
+    return (
+      <div className="text-center py-12">
+        <p className="text-gray-400 text-lg">No brands found.</p>
+      </div>
+    )
+  }
+
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      {brands.map((brand) => (
+        <BrandCard key={brand.id} brand={brand} />
+      ))}
+    </div>
+  )
+}

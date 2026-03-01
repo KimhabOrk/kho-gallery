@@ -1,0 +1,364 @@
+{
+  "brands": [
+  {
+    "id": 1,
+    "name": "Chanel",
+    "logo": "https://ik.imagekit.io/kimhab/brands/chanel.png",
+    "bio": "Founded in 1910 by Gabrielle 'Coco' Chanel, the House of Chanel is synonymous with timeless elegance and revolutionary design. From the iconic little black dress to the quilted handbag, Chanel has consistently redefined luxury fashion. The brand's philosophy of liberating women from the constraints of corseted fashion created a new paradigm of comfort and sophistication. Today, under the creative direction of Virginie Viard, Chanel continues to honor its heritage while embracing modernity, maintaining its position as one of the world's most prestigious fashion houses.",
+    "country": "France",
+    "founded": "1910",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 2,
+    "name": "Christian Dior",
+    "logo": "https://ik.imagekit.io/kimhab/brands/dior.png",
+    "bio": "Christian Dior founded his eponymous fashion house in 1946, revolutionizing post-war fashion with the 'New Look' that celebrated femininity and luxury. The brand quickly became synonymous with French haute couture and elegance. Under the creative direction of Maria Grazia Chiuri, Dior continues to push boundaries while honoring its rich heritage. The house is renowned for its meticulous craftsmanship, innovative techniques, and ability to blend tradition with contemporary vision, making it one of the most influential luxury brands in the world.",
+    "country": "France",
+    "founded": "1946",
+    "founder": "Christian Dior",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 3,
+    "name": "Versace",
+    "logo": "https://ik.imagekit.io/kimhab/brands/vers.png",
+    "bio": "Versace is a renowned Italian luxury fashion company, founded by Gianni Versace in 1978. Known for its bold designs, opulent aesthetics, and use of vibrant colors, Versace quickly became a symbol of high fashion and celebrity culture. The brand's iconic logo, featuring the head of Medusa from Greek mythology, reflects its connection to classical art and a sense of alluring power. Versace encompasses ready-to-wear, accessories, haute couture, and licensing agreements for products like eyewear and home goods.",
+    "country": "Italy",
+    "founded": "1978",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 4,
+    "name": "Valentino",
+    "logo": "https://ik.imagekit.io/kimhab/brands/valentino.png",
+    "bio": "Founded in 1960 by Valentino Garavani and Giancarlo Giammetti, Valentino represents the pinnacle of Italian luxury and craftsmanship. The house is renowned for its romantic aesthetic, impeccable tailoring, and the iconic Valentino Red. Under Pierpaolo Piccioli's creative direction, the brand continues to celebrate femininity and beauty through innovative design and exceptional artisanship. Valentino's commitment to haute couture traditions combined with contemporary vision has established it as one of the most respected names in luxury fashion.",
+    "country": "Italy",
+    "founded": "1960",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 5,
+    "name": "Tom Ford",
+    "logo": "https://ik.imagekit.io/kimhab/brands/tf.png",
+    "bio": "Tom Ford is a renowned American fashion designer and filmmaker, celebrated for revitalizing Gucci and launching his own successful luxury brand. He gained prominence as the creative director at Gucci, transforming the brand and its image. In 2005, he launched his eponymous brand, offering menswear, eyewear, and cosmetics. Ford also ventured into film directing, receiving critical acclaim for \"A Single Man\". In 2022, he sold his fashion brand to Estée Lauder.",
+    "country": "USA",
+    "founded": "2005",
+    "specialty": "Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 6,
+    "name": "Gucci",
+    "logo": "https://ik.imagekit.io/kimhab/brands/gucci.png",
+    "bio": "Founded in Florence in 1921 by Guccio Gucci, the house began as a small leather goods company and has grown into one of the world's leading luxury brands. Known for its Italian craftsmanship, innovative design, and bold aesthetic, Gucci has consistently pushed fashion boundaries. Under Sabato De Sarno's creative direction, the brand continues to evolve while honoring its rich heritage. Gucci's ability to blend tradition with contemporary culture, combined with its commitment to sustainability and inclusivity, has made it a defining force in modern luxury fashion.",
+    "country": "Italy",
+    "founded": "1921",
+    "specialty": "Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 7,
+    "name": "Balmain",
+    "logo": "https://ik.imagekit.io/kimhab/brands/balmain.png",
+    "bio": "Balmain, a French luxury fashion house, was founded in 1945 by Pierre Balmain in Paris. The brand is known for its opulent, feminine designs and its contribution to the revitalization of Parisian couture after World War II. Balmain quickly gained recognition for its signature tailored jackets and elegant evening wear, attracting a clientele of Hollywood stars and European royalty. Today, Balmain continues to be a prominent force in the fashion industry under the creative direction of Olivier Rousteing, known for his bold and modern designs.",
+    "country": "France",
+    "founded": "1945",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 8,
+    "name": "Balenciaga",
+    "logo": "https://ik.imagekit.io/kimhab/brands/balen.png",
+    "bio": "Balenciaga is a luxury fashion house founded by Spanish designer Cristóbal Balenciaga in 1919 in San Sebastián, Spain. The brand is known for its innovative and sculptural designs, particularly in haute couture. After initially closing in 1972, it was revived in 1986 and is now owned by the Kering group since 2001.",
+    "country": "Spain",
+    "founded": "1919",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 9,
+    "name": "Alexander McQueen",
+    "logo": "https://ik.imagekit.io/kimhab/brands/am.png",
+    "bio": "Alexander McQueen, the brand, was founded by the late designer Lee Alexander McQueen in 1992, known for its provocative and theatrical designs. McQueen, a British fashion designer, was celebrated for his innovative and boundary-pushing creations, often exploring dark and controversial themes. The brand, now part of the Kering Group, is recognized for its uncompromising quality, creative vision, and unique expression of individuality and subversive strength.",
+    "country": "Britain",
+    "founded": "1992",
+    "specialty": "Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 10,
+    "name": "Thierry Mugler",
+    "logo": "https://ik.imagekit.io/kimhab/brands/tm.png",
+    "bio": "Thierry Mugler, founded by Manfred Thierry Mugler in 1974, is a fashion and fragrance house known for its bold, avant-garde designs and trend-setting scents like Angel and Alien. The brand is characterized by its subversion of traditional fashion codes, creating instantly recognizable silhouettes with oversized shoulders, cinched waists, and a confident, often futuristic aesthetic. Mugler's work, particularly in the 1980s and 90s, was theatrical and innovative, featuring sharp cuts, fetishistic elements, and the use of metal and unique materials. Mugler's legacy extends beyond fashion, encompassing fragrances, cosmetics, and even theatrical direction.",
+    "country": "France",
+    "founded": "1974",
+    "specialty": "Haute Couture, Ready-To-Wear"
+  },
+  {
+    "id": 11,
+    "name": "Robert Wun",
+    "logo": "https://ik.imagekit.io/kimhab/brands/rw.png",
+    "bio": "Robert Wun is a London-based fashion designer from Hong Kong, known for his storytelling collections that blend modern artistry with craftsmanship, exploring narratives of visibility and liberation. His brand, ROBERT WUN, founded in 2014, focuses on custom orders, including shoes and accessories, and incorporates unique tailoring inspired by movies and nature. He gained recognition for his graduate collection at London College of Fashion and became the first designer from Hong Kong to join the Haute Couture Calendar as a guest member in 2023.",
+    "country": "Hong Kong",
+    "founded": "2014",
+    "specialty": "Haute Couture"
+  },
+  {
+    "id": 12,
+    "name": "Maison Margiela",
+    "logo": "https://ik.imagekit.io/kimhab/brands/mm.png",
+    "bio": "Maison Margiela, formerly known as Maison Martin Margiela, is a French luxury fashion house founded in Paris in 1988 by Belgian designer Martin Margiela and Jenny Meirens. The brand is known for its deconstructionist, avant-garde designs, unconventional materials, and focus on conceptual fashion as art. Margiela's approach challenged traditional fashion norms, with a focus on deconstruction, reinvention, and a rejection of the cult of personality in fashion.",
+    "country": "France",
+    "founded": "1988",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 13,
+    "name": "Thom Browne",
+    "logo": "https://ik.imagekit.io/kimhab/brands/tb.png",
+    "bio": "Thom Browne is an American fashion designer, known for his distinctive, tailored menswear and his highly conceptual runway shows. He founded the luxury fashion house Thom Browne, based in New York City, and has expanded his collections to include womenswear, childrenswear, and accessories. Browne's work is recognized for its classic American style with a modern, often playful, twist.",
+    "country": "USA",
+    "founded": "2001",
+    "specialty": "Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 14,
+    "name": "Zuhair Murad",
+    "logo": "https://ik.imagekit.io/kimhab/brands/zm.png",
+    "bio": "Zuhair Murad is a Lebanese fashion designer known for his haute couture, ready-to-wear, and bridal collections. Born in Ras Baalbek, Lebanon, he launched his brand in 1995 and became a regular at Paris Haute Couture Week in 2001. His designs are popular with celebrities on red carpets and he's known for his glamorous and intricate styles.",
+    "country": "Lebanon",
+    "founded": "1995",
+    "specialty": "Haute Couture, Ready-To-Wear"
+  },
+  {
+    "id": 15,
+    "name": "Elie Saab",
+    "logo": "https://ik.imagekit.io/kimhab/brands/es.png",
+    "bio": "Elie Saab, born in 1964, is a Lebanese fashion designer renowned for his luxurious and intricate couture gowns. He's known for blending Middle Eastern opulence with Western elegance, making him a favorite among celebrities and royalty. Starting his own label in Beirut in 1982, he gained global recognition after dressing Halle Berry for the 2002 Oscars.",
+    "country": "Lebanon",
+    "founded": "1982",
+    "specialty": "Haute Couture, Ready-To-Wear"
+  },
+  {
+    "id": 16,
+    "name": "Schiaparelli",
+    "logo": "https://ik.imagekit.io/kimhab/brands/sch.png",
+    "bio": "Elsa Schiaparelli (1890-1973) was a pioneering Italian fashion designer known for her innovative and surrealist designs. She founded the House of Schiaparelli in Paris in 1927 and became a prominent figure in the fashion world between the two World Wars. Her designs often incorporated bold colors, unconventional themes, and collaborations with artists like Salvador Dalí and Jean Cocteau.",
+    "country": "Italy",
+    "founded": "1927",
+    "specialty": "Haute Couture, Ready-To-Wear"
+  },
+  {
+    "id": 17,
+    "name": "Vivien Westwood",
+    "logo": "https://ik.imagekit.io/kimhab/brands/vw.png",
+    "bio": "Dame Vivienne Isabel Westwood (1941 – 2022) was a renowned English fashion designer and businesswoman, widely recognized for bringing modern punk and new wave fashion into the mainstream. She co-created the punk aesthetic with Malcolm McLaren, shaping the 1970s UK punk scene and challenging conventional norms. Westwood later expanded her influence with collections drawing from historical and avant-garde styles, all while advocating for sustainability and activism.",
+    "country": "Britain",
+    "founded": "1971",
+    "specialty": "Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 18,
+    "name": "Yves Saint Laurent",
+    "logo": "https://ik.imagekit.io/kimhab/brands/sl.png",
+    "bio": "Yves Saint Laurent, born in 1936 in Algeria, was a pioneering French fashion designer who revolutionized the fashion industry. He is known for his innovative designs, including the tuxedo suit for women, and for popularizing ready-to-wear fashion. His career was marked by both success and personal struggles, solidifying his legacy as one of the most influential designers of the 20th century.",
+    "country": "France",
+    "founded": "1961",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 19,
+    "name": "Altuzarra",
+    "logo": "https://ik.imagekit.io/kimhab/brands/al.png",
+    "bio": "Joseph Altuzarra is a French-American fashion designer, known for his luxury women's ready-to-wear brand, Altuzarra. Born in Paris in 1983, he was raised in a multicultural environment with a Chinese-American mother and French father. After graduating from Swarthmore College with a degree in Art and Art History, he gained experience at several fashion houses, including Marc Jacobs and Proenza Schouler, before apprenticing with a patternmaker. He then worked as an assistant to Riccardo Tisci at Givenchy before launching his own brand in 2008.",
+    "country": "French-American",
+    "founded": "2008",
+    "specialty": "Ready-To-Wear"
+  },
+  {
+    "id": 20,
+    "name": "Roberto Cavalli",
+    "logo": "https://ik.imagekit.io/kimhab/brands/rc.png",
+    "bio": "Roberto Cavalli, born on November 15, 1940, in Florence, Italy, was an Italian fashion designer and inventor. He was known for his exotic and animal prints, as well as his innovative techniques in leather printing and patchwork. Cavalli's designs, often associated with glamour and luxury, significantly impacted contemporary fashion. He passed away on April 12, 2024, in Florence.",
+    "country": "Italy",
+    "founded": "1970",
+    "specialty": "Haute Couture, Ready-To-Wear"
+  },
+  {
+    "id": 21,
+    "name": "Prada",
+    "logo": "https://ik.imagekit.io/kimhab/brands/prada.png",
+    "bio": "Miuccia Prada, born Maria Bianchi on May 10, 1949, is an Italian fashion designer and businesswoman. She is the head designer and co-CEO of the Prada fashion house, which was founded by her grandfather, Mario Prada. She is known for her minimalist designs with a modern twist and for challenging traditional fashion norms.",
+    "country": "Italy",
+    "founded": "1913",
+    "specialty": "Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 22,
+    "name": "Oscar Dela Renta",
+    "logo": "https://ik.imagekit.io/kimhab/brands/odr.png",
+    "bio": "Oscar de la Renta was a Dominican fashion designer renowned for his elegant and sophisticated designs, particularly his evening wear and red carpet gowns. He became internationally known in the 1960s for dressing Jacqueline Kennedy and later designed for numerous other First Ladies and celebrities. De la Renta's designs blended American sportswear and European couture, featuring vibrant colors, delicate prints, and soft silhouettes.",
+    "country": "Dominican Republic",
+    "founded": "1965",
+    "specialty": "Ready-To-Wear"
+  },
+  {
+    "id": 23,
+    "name": "Jean Paul Gaultier",
+    "logo": "https://ik.imagekit.io/kimhab/brands/jpg.png",
+    "bio": "Jean Paul Gaultier, born on April 24, 1952, is a highly influential French haute couture and prêt-à-porter fashion designer known for his unconventional and boundary-pushing designs. He's often called an \"enfant terrible\" of the fashion world for his bold, androgynous styles and playful, sometimes outrageous, creations.",
+    "country": "France",
+    "founded": "1982",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 24,
+    "name": "Givenchy",
+    "logo": "https://ik.imagekit.io/kimhab/brands/givenchy.png",
+    "bio": "Hubert de Givenchy (1927-2018) was a renowned French fashion designer and the founder of the luxury brand Givenchy. He is celebrated for his elegant designs, particularly his work with Audrey Hepburn, and for pioneering the concept of separates in couture.",
+    "country": "France",
+    "founded": "1952",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 25,
+    "name": "Diane Von Furstenberg",
+    "logo": "https://ik.imagekit.io/kimhab/brands/dvf.png",
+    "bio": "Diane von Fürstenberg, born Diane Simone Michelle Halfin on December 31, 1946, is a Belgian-American fashion designer best known for her iconic wrap dress. She gained international recognition after marrying into the German princely House of Fürstenberg in 1969. Following her divorce in 1983, she continued to use the von Fürstenberg name. Her fashion career took off with the launch of her label in 1970 and the widespread success of her wrap dress in 1974.",
+    "country": "Belgian-American",
+    "founded": "1970",
+    "specialty": "Ready-To-Wear"
+  },
+  {
+    "id": 26,
+    "name": "Dolce & Gabana",
+    "logo": "https://ik.imagekit.io/kimhab/brands/dg.png",
+    "bio": "Dolce & Gabbana is an Italian luxury fashion house founded in 1985 by Domenico Dolce and Stefano Gabbana. The duo, who were once romantically involved, now work as business partners. Their designs are known for their glamorous, sexy, and flamboyant style, often drawing inspiration from Italian culture and the \"dolce vita\".",
+    "country": "Italy",
+    "founded": "1985",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 27,
+    "name": "Giorgio Armani",
+    "logo": "https://ik.imagekit.io/kimhab/brands/ga.png",
+    "bio": "Giorgio Armani, born on July 11, 1934, is an iconic Italian fashion designer and billionaire. He is the President and Chief Executive of the Armani Group, a global fashion and design empire. Armani is known for his clean, tailored lines and understated elegance, pioneering relaxed yet luxurious ready-to-wear and intricately beaded evening wear. He founded his company, Giorgio Armani S.p.A., in 1975, which expanded into menswear, womenswear, accessories, fragrances, cosmetics, and home furnishings.",
+    "country": "Italy",
+    "founded": "1975",
+    "specialty": "Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 28,
+    "name": "Viktor & Rolf",
+    "logo": "https://ik.imagekit.io/kimhab/brands/vr.png",
+    "bio": "Viktor & Rolf is a Dutch luxury fashion house founded in 1993 by Viktor Horsting and Rolf Snoeren. They are known for their avant-garde designs, pushing the boundaries between art and fashion, and their theatrical, often conceptual, runway shows. The duo has created both haute couture and ready-to-wear collections, as well as a successful fragrance line, including the popular Flowerbomb.",
+    "country": "Netherlands",
+    "founded": "1993",
+    "specialty": "Haute Couture"
+  },
+  {
+    "id": 29,
+    "name": "Vera Wang",
+    "logo": "https://ik.imagekit.io/kimhab/brands/veraw.png",
+    "bio": "Vera Wang is an American fashion designer, born on June 27, 1949, in New York City. She is best known for her bridal wear and couture gowns. She also designs ready-to-wear collections, accessories, and fragrances.",
+    "country": "USA",
+    "founded": "1990",
+    "specialty": "Ready-To-Wear"
+  },
+  {
+    "id": 30,
+    "name": "Fendi",
+    "logo": "https://ik.imagekit.io/kimhab/brands/fendi.png",
+    "bio": "Fendi is an Italian luxury fashion house founded in Rome in 1925 by Adele and Edoardo Fendi. Initially a handbag shop and fur workshop, Fendi gained international recognition for its elegant designs, craftsmanship, and innovative use of fur. The brand is now part of the French group LVMH and is known for its ready-to-wear, leather goods, shoes, fragrances, eyewear, timepieces, and accessories.",
+    "country": "Italy",
+    "founded": "1925",
+    "specialty": "Haute Couture, Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 31,
+    "name": "Miss Sohee",
+    "logo": "https://ik.imagekit.io/kimhab/brands/ms.png",
+    "bio": "Miss Sohee is a London-based couture brand founded by Sohee Park, a South Korean designer. The brand is known for its couture-level craftsmanship, sustainable practices, and incorporation of Korean heritage and natural elements into its designs. Miss Sohee's designs often feature romantic motifs, intricate embroidery, and vibrant colors inspired by Korean Minhwa paintings and the natural world.",
+    "country": "South Korea",
+    "founded": "2020",
+    "specialty": "Haute Couture"
+  },
+  {
+    "id": 32,
+    "name": "Alexis Mabille",
+    "logo": "https://ik.imagekit.io/kimhab/brands/alexis.png",
+    "bio": "Alexis Mabille is a French fashion designer who launched his eponymous brand in 2005, known for blending tradition with modernity and incorporating elements of interior design. He started by creating unisex designs, using the bowtie as a logo and common element between menswear and womenswear. Mabille's designs eventually evolved into separate ready-to-wear lines for men and women, as well as accessories and haute couture, which he debuted at Paris Haute Couture Fashion Week in 2008.",
+    "country": "France",
+    "founded": "2005",
+    "specialty": "Haute Couture"
+  },
+  {
+    "id": 33,
+    "name": "Armani Prive",
+    "logo": "https://ik.imagekit.io/kimhab/brands/ap.png",
+    "bio": "Armani Privé is the haute couture line of the Giorgio Armani fashion house, launched in 2005. It represents the pinnacle of luxury and meticulous craftsmanship within the brand. Armani Privé collections are distinct from the prêt-à-porter lines but share the brand's signature style of linear elegance and refinement.",
+    "country": "Italy",
+    "founded": "2005",
+    "specialty": "Haute Couture"
+  },
+  {
+    "id": 34,
+    "name": "Rahul Mishra",
+    "logo": "https://ik.imagekit.io/kimhab/brands/rm.png",
+    "bio": "Rahul Mishra is an Indian fashion designer and the founder of the eponymous brand, Label Rahul Mishra, known for its celebration of traditional Indian crafts and its commitment to sustainability and ethical practices. He was the first Indian designer to showcase at Paris Haute Couture Week, and his work emphasizes the empowerment of local artisan communities. The brand focuses on slow fashion, intricate hand embroidery, and providing long-term employment opportunities for artisans.",
+    "country": "India",
+    "founded": "2008",
+    "specialty": "Haute Couture"
+  },
+  {
+    "id": 35,
+    "name": "Rami Al Ali",
+    "logo": "https://ik.imagekit.io/kimhab/brands/aaa.png",
+    "bio": "Rami Al Ali is a Syrian fashion designer and the founder of the Rami Al Ali Couture fashion house, established in Dubai in 2000. He is known for his bold couture designs and has gained international recognition, including being the first Syrian designer to be invited to the official Paris Haute Couture Week calendar. His designs often blend his Syrian heritage with a modern aesthetic, showcasing his craftsmanship and attention to detail.",
+    "country": "Syria",
+    "founded": "2000",
+    "specialty": "Haute Couture, Ready-To-Wear"
+  },
+  {
+    "id": 36,
+    "name": "Ronald Van Der Kemp",
+    "logo": "https://ik.imagekit.io/kimhab/brands/rvdk.png",
+    "bio": "RVDK Ronald van der Kemp, founded by Dutch designer Ronald van der Kemp in 2014, is the world's first sustainable couture label. The brand is known for its upcycled and ethically sourced fashion, creating limited-edition, seasonless, and timeless pieces. Van der Kemp, who previously worked for high-end brands like Bill Blass and Celine, emphasizes luxury with a conscience, using leftover, high-quality materials and handcrafting garments in small ateliers in the Netherlands.",
+    "country": "Netherlands",
+    "founded": "2014",
+    "specialty": "Haute Couture"
+  },
+  {
+    "id": 37,
+    "name": "Moschino",
+    "logo": "https://ik.imagekit.io/kimhab/brands/mos.png",
+    "bio": "Moschino is a luxury Italian fashion house, founded in 1983 by Franco Moschino, known for its playful, irreverent, and often satirical designs. The brand, part of the Aeffe group, offers ready-to-wear for men, women, and children, along with accessories, eyewear, and fragrances. After Franco Moschino's death in 1994, his former assistant, Rossella Jardini, took over as creative director, followed by Jeremy Scott, and now Adrian Appiolaza.",
+    "country": "Italy",
+    "founded": "1983",
+    "specialty": "Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 38,
+    "name": "Burberry",
+    "logo": "https://ik.imagekit.io/kimhab/brands/bbr.png",
+    "bio": "Burberry is a British luxury fashion house founded in 1856 by Thomas Burberry. It's known for its iconic trench coat, Burberry check pattern, and Equestrian Knight Design. Burberry combines a strong British heritage with a focus on innovation and exploration, particularly in the realm of outdoor wear.",
+    "country": "Britain",
+    "founded": "1856",
+    "specialty": "Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 39,
+    "name": "Stella McCartney",
+    "logo": "https://ik.imagekit.io/kimhab/brands/sm.png",
+    "bio": "Stella McCartney is a British fashion designer known for her eponymous luxury fashion house and her commitment to sustainable and ethical fashion practices. The brand, launched in 2001, is recognized for its vegetarian ethos, refusing to use leather, fur, skin, or feathers in its designs from the start. It has grown into a global brand with a strong focus on eco-friendly materials, innovative design, and collaborations with various brands like Adidas.",
+    "country": "Britain",
+    "founded": "2001",
+    "specialty": "Ready-To-Wear, Menswear"
+  },
+  {
+    "id": 40,
+    "name": "Dries Van Noten",
+    "logo": "https://ik.imagekit.io/kimhab/brands/dries.png",
+    "bio": "Dries Van Noten is a Belgian fashion designer, known for his sophisticated and artistic approach to clothing, blending vibrant colors and prints with a relaxed, elegant style. He launched his first menswear collection in 1986 after graduating from the Royal Academy of Fine Arts in Antwerp. Van Noten is recognized for his innovative designs and has been honored with awards like the International Designer of the Year by the CFDA in 2008. In 2024, he presented his final collection as Creative Director of the brand, though he remains involved.",
+    "country": "Belgium",
+    "founded": "1986",
+    "specialty": "Ready-To-Wear, Menswear"
+  }]
+}
