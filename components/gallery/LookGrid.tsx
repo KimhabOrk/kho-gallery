@@ -14,7 +14,7 @@ export default function LookGrid({ looks, collection, onLookClick }: LookGridPro
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
       {looks.map((look, index) => (
         <div key={look.id} className="group cursor-pointer" onClick={() => onLookClick(look, collection)}>
-          <div className="relative overflow-hidden bg-muted">
+          <div className="relative overflow-hidden rounded-sm bg-muted">
             <Image
               src={look.image || "/cover.gif"}
               alt={`Look ${index + 1}`}

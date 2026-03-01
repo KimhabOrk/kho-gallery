@@ -33,7 +33,7 @@ export default function BrandCard({ brand }: BrandCardProps) {
             />
         </div>
           <CardContent className="flex flex-col p-4 items-center text-center mb-4">
-            <h3 className="text-2xl font-bold mb-4 text-center group-hover:text-gray-300 transition-colors">
+            <h3 className="text-2xl font-bold mb-4 text-center group-hover:text-muted-foreground transition-colors">
               {brand.name}
             </h3>
             <div className="mb-6">
@@ -44,7 +44,7 @@ export default function BrandCard({ brand }: BrandCardProps) {
               <Button
                 onClick={() => setShowFullBio(!showFullBio)}
                 variant="link"
-                className="text-gray-400 hover:text-white p-0 mt-2 text-xs"
+                className="text-muted-foreground/80 hover:text-white p-0 mt-2 text-xs"
                >
                 {showFullBio ? "Read Less" : "Read More"}
               </Button>
@@ -52,7 +52,7 @@ export default function BrandCard({ brand }: BrandCardProps) {
             </div>
             
             <Link href={`/brand/${brandSlug}`} className="block">
-              <Button className="w-full bg-gray-300 text-black hover:bg-primary hover:text-white transition-colors font-medium">
+              <Button className="w-full bg-gray-300 text-primary hover:bg-primary hover:text-white transition-colors font-medium">
                 View Collections
               </Button>
             </Link>
