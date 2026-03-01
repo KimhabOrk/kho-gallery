@@ -201,10 +201,6 @@ export async function generateMetadata(): Promise < Metadata > {
         "max-snippet": -1,
       },
     },
-    sitemap: [
-      "https://gallery.kimhabork.site/sitemap.xml",
-      "https://gallery.kimhabork.site/sitemap-0.xml",
-     ],
   };
 }
 export default function RootLayout({
