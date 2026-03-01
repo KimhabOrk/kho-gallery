@@ -85,7 +85,7 @@ export default function NotFound() {
             transition={{ duration: 1, delay: 0.6 }}
             className="text-xl md:text-2xl font-light mb-8 text-primary"
           >
-            Phnom Penh Fashion Institute
+            KIMHAB ORK
           </motion.h3>
 
           {/* Description */}

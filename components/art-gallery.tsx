@@ -91,7 +91,7 @@ const handleItemsPerPageChange = (value: string) => {
       <section className="relative w-full h-[50vh] md:h-[35vh] lg:h-[60vh] bg-black px-4 text-center">
        <Image
           src="https://ik.imagekit.io/digiv3rse/assets/img/monet.jpg"
-          alt="Phnom Penh Fashion Institute Art Gallery"
+          alt="KIMHAB ORK Art Gallery"
           fill
           className="object-cover opacity-60"
           priority

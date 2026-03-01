@@ -39,7 +39,7 @@ export default function VideoHero() {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-center px-4">
           <h1 className="text-3xl text-white md:text-5xl lg:text-6xl font-bold text-white mb-4">Runway Gallery</h1>
-          <p className="absolute bottom-2 right-2 uppercase text-gray-500 text-xs md:text-sm lg:text-md z-10">Phnom Penh Fashion Institute</p>
+          <p className="absolute bottom-2 right-2 uppercase text-gray-500 text-xs md:text-sm lg:text-md z-10">KIMHAB ORK</p>
         </div>
       </div>
       <div className="absolute bottom-0 left-0 right-0 h-11 md:h-24 lg:h-12 bg-gradient-to-t from-black to-transparent"></div>
