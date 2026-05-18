@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 
 module.exports = {
-  siteUrl: 'https://gallery.kimhabork.site',
+  siteUrl: 'https://gallery.kimhab.com',
   changefreq: 'weekly',
   priority: 1,
   sitemapSize: 5000,

@@ -53,13 +53,13 @@ export async function generateMetadata(): Promise < Metadata > {
       title: "Kimhab Ork Fashion & Art Gallery",
       siteName: "Kimhab Ork Fashion & Art Gallery",
       description: "Kimhab Ork Fashion & Art Gallery is a digital resources for Art and Runway Collections from around the world.",
-      video: "https://gallery.kimhabork.site/og-video.mp4",
+      video: "https://gallery.kimhab.com/og-video.mp4",
       images: {
         url: "https://ik.imagekit.io/digiv3rse/assets/og.png",
         width: 3780,
         height: 1890,
       },
-      url: "https://gallery.kimhabork.site",
+      url: "https://gallery.kimhab.com",
       locale: "en_US",
       type: "website"
     },
@@ -71,7 +71,7 @@ export async function generateMetadata(): Promise < Metadata > {
       images: ["https://ik.imagekit.io/digiv3rse/assets/og.png"],
     },
     alternates: {
-      canonical: "https://gallery.kimhabork.site",
+      canonical: "https://gallery.kimhab.com",
     },
     creator: "Kimhab Ork Fashion & Art Gallery",
     publisher: "Kimhab Ork Fashion & Art Gallery",
@@ -80,12 +80,12 @@ export async function generateMetadata(): Promise < Metadata > {
       address: false,
       telephone: false,
     },
-    manifest: "https://gallery.kimhabork.site/manifest.json",
+    manifest: "https://gallery.kimhab.com/manifest.json",
     icons: {
       shortcut: { url: "/favicon.ico", type: "image/x-icon" },
       icon: [
         { url: "/favicon/favicon.ico", type: "image/x-icon" },
-        new URL("/favicon/favicon.ico", "https://kimhabork.site/favicon.ico"),
+        new URL("/favicon/favicon.ico", "https://kimhab.com/favicon.ico"),
         {
           url: "/favicon.svg",
           type: "image/svg",
@@ -219,8 +219,8 @@ export default function RootLayout({
                 "@context": "https://schema.org",
                 "@type": "FashionBrand",
                 "name": "Kimhab Ork Fashion & Art Gallery",
-                "url": "https://gallery.kimhabork.site",
-                "logo": "https://gallery.kimhabork.site/ppfi-nav.png", 
+                "url": "https://gallery.kimhab.com",
+                "logo": "https://gallery.kimhab.com/ppfi-nav.png", 
                 "description": "Kimhab Ork Fashion & Art Gallery is a digital resources for Art and Runway Collections from around the world.",
                 "address": {
                   "@type": "PostalAddress",
@@ -234,7 +234,7 @@ export default function RootLayout({
                   "@type": "ContactPoint",
                   "telephone": "+855-23-456-789",
                   "contactType": "Admissions Office",
-                  "email": "info@kimhabork.site"
+                  "email": "info@kimhab.com"
                 },
                 "sameAs": [
                   "https://www.facebook.com/PPFashionInstitute", 

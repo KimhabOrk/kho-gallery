@@ -1,101 +1,124 @@
-"use client";
-
 import Link from "next/link";
-import { Instagram, Facebook, Linkedin } from "lucide-react";
-import Image from "next/image"
+import Image from "next/image";
+import { ThemeToggle } from "./theme-toggle";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-background py-6 md:py-10 border-t border-white/20 w-full">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-        {/* Bottom */}
-        <div className="pt-4">
-          <div className="flex gap-6 md:gap-10 justify-center items-center mx-auto mb-4">
+    <footer className="border-t border-border bg-background">
+      <div className="mx-auto max-w-screen px-4 md:px-6 py-8 md:py-12 overflow-hidden">
+        <nav className="flex flex-col items-center justify-between gap-6 md:gap-8">
+          {/* Navigation Links */}
+          <div className="flex flex-row items-center justify-center gap-3 md:gap-8">
+            <Link
+              href="https://kimhab.com/designs"
+              className="text-sm md:text-lg text-muted-foreground transition-colors hover:text-primary"
+            >
+              Designs
+            </Link>
+            <Link
+              href="https://kimhab.com/academics"
+              className="text-sm md:text-lg text-muted-foreground transition-colors hover:text-primary"
+            >
+              Academics
+            </Link>
+            <Link
+              href="https://kimhab.com/about"
+              className="text-sm md:text-lg text-muted-foreground transition-colors hover:text-primary"
+            >
+              About
+            </Link>
+            <Link
+              href="https://kimhab.com/news"
+              className="text-sm md:text-lg text-muted-foreground transition-colors hover:text-primary"
+            >
+              News
+            </Link>
+            <Link
+              href="https://kimhab.com/contact"
+              className="text-sm md:text-lg text-muted-foreground transition-colors hover:text-primary"
+            >
+              Contact
+            </Link>
+          </div>
+
+          <div className="flex justify-center items-center mx-auto gap-4">
+            <Link
+              href="/art"
+              className="text-sm md:text-lg text-muted-foreground transition-colors hover:text-primary"
+            >
+              Art Gallery
+            </Link>
+            <Link
+              href="/"
+              className="text-sm md:text-lg text-muted-foreground transition-colors hover:text-primary"
+            >
+              Runway Gallery
+            </Link>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-6 md:gap-12">
             <Link href="https://facebook.com/kimhab.ork.kh">
-              <Facebook
-                size={24}
-                className="h-6 w-6 md:h-8 md:w-8 text-white"
+              <Image
+                src="https://ik.imagekit.io/digiv3rse/assets/Facebook.png?updatedAt=1762128700747"
+                width={30}
+                height={30}
+                className="object-cover h-10 w-10 md:w-12 md:h-12"
+                alt="Facebook"
               />
             </Link>
             <Link href="https://instagram.com/kimhab_ork">
-              <Instagram
-                size={24}
-                className="h-6 w-6 md:h-8 md:w-8 text-white"
+              <Image
+                src="https://ik.imagekit.io/digiv3rse/assets/Instagram.png?updatedAt=1762128700765"
+                width={30}
+                height={30}
+                className="object-cover h-10 w-10 md:w-12 md:h-12"
+                alt="Instagram"
+              />
+            </Link>
+            <Link href="https://pinterest.com/kimhab_ork">
+              <Image
+                src="https://ik.imagekit.io/digiv3rse/assets/Pinterest.png?updatedAt=1762128699906"
+                width={30}
+                height={30}
+                className="object-cover h-10 w-10 md:w-12 md:h-12"
+                alt="Pinterest"
               />
             </Link>
             <Link href="https://linkedin.com/in/kimhab-ork">
-              <Linkedin
-                size={24}
-                className="h-6 w-6 md:h-8 md:w-8 text-white"
-              />
-            </Link>
-            <Link href="https://tiktok.com/@">
               <Image
-                src="/tiktok.png"
-                width={24}
-                height={24}
-                alt="TikTok Logo"
-                priority
-                className="h-6 w-6 md:h-8 md:w-8 object-cover"
-              />
-            </Link>
-            <Link href="https://www.pinterest.com/kimhab_ork">
-              <Image
-                src="/pinterest.png"
-                width={24}
-                height={24}
-                alt="Pinterest Logo"
-                priority
-                className="h-6 w-6 md:h-8 md:w-8 object-cover"
-              />
-            </Link>
-            <Link href="https://www.threads.com/@kimhab_ork">
-              <Image
-                src="/threads.png"
-                width={24}
-                height={24}
-                alt="Threads Logo"
-                priority
-                className="h-6 w-6 md:h-8 md:w-8 object-contain"
+                src="https://ik.imagekit.io/digiv3rse/assets/LinkedIn.png?updatedAt=1762128700216"
+                width={30}
+                height={30}
+                className="object-cover h-10 w-10 md:w-12 md:h-12"
+                alt="LinkedIn"
               />
             </Link>
           </div>
-          <div className="flex flex-col justify-between items-center gap-4">
-            <div className="flex justify-center items-center mx-auto gap-4">
-              <Link 
-                href="/art"
-                className="text-white/60 hover:text-white text-sm transition-colors"
-              >
-                Art Gallery
-              </Link>
-              <Link 
-                href="/"
-                className="text-white/60 hover:text-white text-sm transition-colors"
-              >
-                Runway Gallery
-              </Link>
+          {/* Copyright */}
+          <div className="flex flex-col justify-center items-center mx-auto gap-4 md:gap-6">
+            <div className="text-center text-xs md:text-md text-muted-foreground">
+              <p>&copy; {currentYear} Kimhab Ork. All rights reserved.</p>
             </div>
-            <p className="text-white/60 text-sm">
-              &copy; {currentYear} Kimhab Ork. All rights reserved.
-            </p>
-            <div className="flex justify-center items-center mx-auto gap-4">
+            <div className="flex flex-wrap gap-2 text-xs md:text-md text-muted-foreground">
               <Link
-                href="https://kimhabork.site/privacy"
-                className="text-white/60 hover:text-white text-sm transition-colors"
+                href="https://kimhab.com/privacy"
+                className="hover:text-primary transition-colors"
               >
                 Privacy Policy
               </Link>
+              <span>•</span>
               <Link
-                href="https://kimhabork.site/terms"
-                className="text-white/60 hover:text-white text-sm transition-colors"
+                href="https://kimhab.com/terms"
+                className="hover:text-primary transition-colors"
               >
                 Terms & Conditions
               </Link>
             </div>
+            <ThemeToggle />
           </div>
-        </div>
+        </nav>
       </div>
     </footer>
   );
