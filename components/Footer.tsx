@@ -44,12 +44,14 @@ export function Footer() {
           </div>
 
           <div className="flex justify-center items-center mx-auto gap-4">
+            {/*
             <Link
               href="/art"
               className="text-sm md:text-lg text-muted-foreground transition-colors hover:text-primary"
             >
               Art Gallery
             </Link>
+            */}
             <Link
               href="/"
               className="text-sm md:text-lg text-muted-foreground transition-colors hover:text-primary"
