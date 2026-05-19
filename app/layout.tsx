@@ -6,8 +6,8 @@ import { GoogleAnalytics } from "@next/third-parties/google"
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { GoogleTagManager } from "@next/third-parties/google";
-import { CookieConsent } from "@/components/cookie-consent";
 import Script from "next/script"
+import { ThemeProvider } from "@/components/theme-provider";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -244,12 +244,18 @@ export default function RootLayout({
                })
             }}
           />
-          <Navbar />
-          {children}
-          <Footer />
-          <CookieConsent />
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Navbar />
+             {children}
+            <Footer />
+          </ThemeProvider>
         </body>
-        <GoogleAnalytics gaId="" />
+        <GoogleAnalytics gaId="G-FCDKWXY5KX" />
     </html>
   );
 }
